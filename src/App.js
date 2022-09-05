@@ -29,7 +29,6 @@ function App() {
   return (
     <>
       <Navbar title="TextUtiles" about="About" mode={mode} toggle={toggle}/>
-	<TextForm mode={mode} toggle={toggle}/>}/>
       <Routes>
         <Route path="About" element={<About/>} />
           <Route path="/" element={<TextForm mode={mode} toggle={toggle}/>} />
